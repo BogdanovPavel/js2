@@ -21,7 +21,9 @@ const renderProducts = list => {
     return renderProduct(product.title, product.price)
   });
   console.log(productList);
-  document.querySelector('.products').innerHTML = productList;
+  document.querySelector('.products').innerHTML = productList.join('');
+  // запятая выводится так как оправляем массив без преобразования в строку
+  // используем join c "" чтобы склеить значения массива в строку разделитель пустая строка
 };
 
 renderProducts(products);

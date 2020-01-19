@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.foto-product {
+    display: flex;
+    height: 100px;
+}
+.btn-cart {
+    margin: 20px;
+    padding: 5px;
+}
+
+.products {
+    padding: 10px;
+}
+
+.product-item {
+    margin-bottom: 20px;
+}
+
+.by-btn {
+    padding: 5px;
+}
